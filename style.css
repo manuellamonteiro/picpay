@@ -1,0 +1,60 @@
+style.css
+
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+html {
+  font-size: 93.75%;
+  background-color: rgb(80, 218, 80);
+  font-family: "Poppins", sans-serif;
+}
+
+#logo {
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+}
+
+h1 {
+  font-family: font-family: 'Open Sans', sans-serif;
+  color: white;
+  position: absolute;
+  top: 18.3%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
+
+#container {
+  position: absolute;
+  top: 24%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+}
+
+input {
+
+  width: 100px;
+  border-radius: 60px;
+  border-style: hidden;
+  background-image: linear-gradient(to bottom right, #f4f4f4, #96c9b1);
+  
+  outline: none;
+  box-shadow: 3px 3px 3px grey;
+  top: %;
+}
+
+label {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  width:100%;
+  justify-content: center;
+}
+
+#btn {
+  position: absolute;
+  top: 125%;
+  left: 47%;
+  transform: translate(-50%, -50%);
+}
